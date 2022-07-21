@@ -2,7 +2,7 @@
 
 This is a simple SPA that provides a search tool to look for a city and shows the weather forecast for the city.
 <br />
-Demo at [https://mossen-forcaste.netlify.app/](https://mossen-forcast.netlify.app/)
+Demo at [https://mossen-forecast.netlify.app/](https://mossen-forecast.netlify.app/)
 
 ## Solution architecture
 
