@@ -16,6 +16,9 @@ export type City = {
     temp: number;
   };
   weather: Weather[];
+  sys: {
+    country: string;
+  }
 };
 
 export type CityWeather = {

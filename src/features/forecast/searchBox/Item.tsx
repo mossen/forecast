@@ -32,7 +32,9 @@ const CityItem: React.FC<Props> = ({ item }) => {
       test-dataid="item"
       className="w-full h-12 flex justify-between items-center px-4 py-3 hover:bg-gray-200 cursor-pointer"
     >
-      <p className="text-sm">{item.name}</p>
+      <p className="text-sm">
+        {item.name}<span className="text-gray-400">/{item.sys.country}</span>
+      </p>
       <p className="text-sm">{kelvinToCelsius(item.main.temp)}°C</p>
       <Icon name={item.weather[0].main} />
       <p className="text-xs text-gray-400">
