@@ -523,8 +523,8 @@ video {
   width: 2rem;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-full {
@@ -715,5 +715,12 @@ video {
   .sm\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 }

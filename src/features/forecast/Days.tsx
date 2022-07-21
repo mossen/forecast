@@ -6,7 +6,7 @@ const Days: React.FC = () => {
   const { state } = useContext();
 
   return (
-    <div className="xs:w-full w-1/2 max-w-xl flex flex-col items-center">
+    <div className="w-11/12 md:w-1/2 max-w-xl flex flex-col items-center">
       {state.weather
         ? state.weather?.daily.map((day, index: number) => (
             <div className="m-1 w-full px-4 py-2 bg-white rounded shadow-lg flex items-center justify-between">
