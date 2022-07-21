@@ -10,11 +10,10 @@ React.js has been used as the main framework and tailwindcss as CSS framework:
 
 * [React](https://github.com/facebook/react)
 * [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-* [Redux](https://react-redux.js.org/)
-* [Redux toolkit](https://redux-toolkit.js.org/)
-* [Redux Saga](https://redux-saga.js.org/)
 * [typescript](https://www.typescriptlang.org/)
 * [tailwindcss](https://tailwindcss.com/)
+
+   As this is an small and not a very complicated application so for the state management the context has been used.
 
 An input field is designed for user to input a keyword to be searched, as a result a list of cities will appear.
 By selecting one of the cities from the list the weather forecast for the city will appear on the screen.
@@ -28,12 +27,12 @@ These instructions will get you a copy of the project up and running on your loc
 * Application environment
    ```
    node v18.2.0
-   npm
+   npm 8.9.0
    ```
 * Local development & builds
    ```
    node v18.2.0
-   npm
+   npm 8.9.0
    ```
 
 ### Installing
